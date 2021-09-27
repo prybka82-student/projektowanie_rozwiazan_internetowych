@@ -36,6 +36,7 @@ problemloop:
 	for i, p := range problems {
 
 		question := ""
+
 		//rozwiązanie 1.
 		question = strings.Replace(p.q, "-", "_", -1)
 		question = strings.Replace(question, "+", "_", -1)
@@ -94,3 +95,4 @@ func exit(msg string) {
 //go build .\main.go; .\main.exe
 //go build .\main.go; .\main
 //go build .\main.go; .\main -limit 2
+//go build .\main.go; .\main -limit 2 csv "problems.csv"
