@@ -123,17 +123,3 @@ var storyTmpl = `<!DOCTYPE html>
 </html>`
 
 //go run .\main.go
-//go run .\main.go --help
-//go run .\main.go --file abc.json
-//go build .\main.go
-//go build .\main.go; .\main.exe
-//go build .\main.go; .\main
-
-//godoc (Go Documentation Server)
-//https://stackoverflow.com/questions/63442354/godoc-command-not-found
-//installation
-//go get golang.org/x/tools/cmd/godoc
-//help
-//godoc --help
-//run
-//godoc -http=:3030 //or any port

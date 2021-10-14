@@ -16,8 +16,8 @@
                 "arc": "denver"
             },
             {
-                "text": "???",
-                "arc": "alternate-ending"
+                "text": "The end",
+                "arc": "end"
             }
         ]
     },
@@ -118,11 +118,10 @@
             }
         ]
     },
-    "alternate-ending": {
-        "title": "And then the aliens landed...",
+    "end": {
+        "title": "This is the end",
         "story": [
-            "Your little gopher is being kidnapped by evil aliens in order to perform nasty experiments on him.",
-            "But finally gopher is turned into a little happy Borg drone and lives happy ever after... Or does he?"
+            "You found a secret end of the story."
         ],
         "options": [
             {

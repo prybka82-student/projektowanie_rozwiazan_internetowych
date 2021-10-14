@@ -15,7 +15,6 @@ var defaultHandlerTemplate = `<!DOCTYPE html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose Your Own Adventure</title>
-    <link rel="icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f77904e3-3600-4909-b6f8-53bdb832bf23/deiagj2-cb6a927e-6ba9-4790-a592-bfedb6287e91.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y3NzkwNGUzLTM2MDAtNDkwOS1iNmY4LTUzYmRiODMyYmYyM1wvZGVpYWdqMi1jYjZhOTI3ZS02YmE5LTQ3OTAtYTU5Mi1iZmVkYjYyODdlOTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.he2bXS9eOmRv8eODtNKkqYmvczDac4_zdtqJSa0ykmk">
 </head>
 <body>
     <section class="page">
