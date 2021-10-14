@@ -129,6 +129,8 @@ var storyTmpl = `<!DOCTYPE html>
 //go build .\main.go; .\main.exe
 //go build .\main.go; .\main
 
+//http://localhost:3000/story/
+
 //godoc (Go Documentation Server)
 //https://stackoverflow.com/questions/63442354/godoc-command-not-found
 //installation
