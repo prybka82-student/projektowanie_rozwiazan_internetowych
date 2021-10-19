@@ -53,6 +53,13 @@ func validateParams(a string, b string) (val1 float64, val2 float64, isErr bool,
 
 func Add(a string, b string) string {
 
+	defer func() string {
+		if err := recover(); err != nil {
+			return fmt.Sprintf("Cannot add %v to %v", a, b)
+		}
+		return ""
+	}()
+
 	val1, val2, isErr, errMsg := validateParams(a, b)
 	if isErr {
 		return errMsg
@@ -62,6 +69,13 @@ func Add(a string, b string) string {
 }
 
 func Subtract(a string, b string) string {
+
+	defer func() string {
+		if err := recover(); err != nil {
+			return fmt.Sprintf("Cannot subtract %v from %v", b, a)
+		}
+		return ""
+	}()
 
 	val1, val2, isErr, errMsg := validateParams(a, b)
 	if isErr {
