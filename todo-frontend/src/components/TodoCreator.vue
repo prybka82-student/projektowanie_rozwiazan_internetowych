@@ -2,7 +2,7 @@
   <div class="container">
     <div class="col-12">
       <div class="form-group">
-        <label for="textInput">Type new task</label>
+        <label for="textInput">Enter new task</label>
         <input type="text" class="form-control" id="textInput" v-model="text" />
         <p />
         <!-- <small id="textHelp" class="form-text text-muted"> a</small> -->
